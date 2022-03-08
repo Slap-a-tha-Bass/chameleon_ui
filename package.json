@@ -1,0 +1,22 @@
+{
+  "name": "chameleon_ui",
+  "version": "1.0.0",
+  "description": "Styled-components library",
+  "main": "index.js",
+  "typings": "typings.d.ts",
+  "keywords": [
+    "chameleon",
+    "chameleonUI",
+    "chameleonui",
+    "styled",
+    "styled-components"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Corey DeLoach",
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^5.3.3"
+  }
+}
