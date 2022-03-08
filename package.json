@@ -8,6 +8,8 @@
     "chameleon",
     "chameleonUI",
     "chameleonui",
+    "chameleon-ui",
+    "chameleon_ui",
     "styled",
     "styled-components"
   ],
