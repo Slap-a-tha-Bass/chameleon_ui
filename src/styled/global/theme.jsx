@@ -8,9 +8,8 @@ const styles = {
 export const darkTheme = {
   title: "Main",
   primary: `#ffffff`,
-  secondary: `#0DD3C9`,
-  info: `#0DD3C9`,
-  dark: `black`,
+  secondary: `#c0c0c0`,
+  info: `#858585`,
   text: `#ffffff`,
   bgColor: `linear-gradient(
       344deg,
@@ -22,9 +21,8 @@ export const darkTheme = {
 export const lightTheme = {
     title: "Main",
     primary: `#000000`,
-    secondary: `#0DD3C9`,
-    info: `#0DD3C9`,
-    dark: `black`,
+    secondary: `#c0c0c0`,
+    info: `#858585`,
     text: `#000000`,
     bgColor: `linear-gradient(
         344deg,

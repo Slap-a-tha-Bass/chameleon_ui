@@ -12,7 +12,7 @@ declare namespace Button {
         borderRadius?: number;
     }
 
-    /**
+    /** 
     * Button with custom props for styling. Colors can be strings, HEX, or RGB. Use px for margin, padding, borderWidth, and borderRadius. 
     *
     * Example:
