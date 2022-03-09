@@ -1,8 +1,8 @@
 {
   "name": "chameleon_ui",
   "version": "1.0.1",
-  "description": "Styled-components library",
-  "main": "index.tsx",
+  "description": "Styled-components UI library",
+  "main": "src/index.tsx",
   "keywords": [
     "chameleon",
     "chameleonUI",

@@ -12,7 +12,10 @@ export const CustomInput = styled.input<InputProps>`
   border-radius: ${(props) => props.borderRadius || 5}px;
 `;
 
-interface InputProps {
+export interface InputProps {
+  // * functionality
+  required?: boolean;
+  // * styles
   bgColor?: string;
   color?: string;
   width?: number;

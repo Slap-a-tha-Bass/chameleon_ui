@@ -11,7 +11,12 @@ export const CustomButton = styled.button<ButtonProps>`
   border-radius: ${(props) => props.borderRadius || 5}px;
 `;
 
-interface ButtonProps {
+export interface ButtonProps {
+  // * functionality
+  children?: any;
+  disabled?: boolean;
+  onClick?: any;
+  // * styling
   bgColor?: string;
   color?: string;
   padding?: number;
