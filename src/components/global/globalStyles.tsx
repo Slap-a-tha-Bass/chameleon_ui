@@ -1,6 +1,6 @@
 import { createGlobalStyle, css } from "styled-components";
 
-export const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
 /* resets */
 * {
   padding: 0;
@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
 html, body {
   height: 100%;
   overflow: auto;
-  ${({ theme }) =>
+  ${({ theme }: GlobalProps) =>
     theme &&
     css`
       font-family: ${theme.fonts.primary};
@@ -78,7 +78,7 @@ a {
 }
 button {
   font-family: ${({ theme }) => theme && theme.fonts.primary};
-  color: ${({ theme }) => theme && theme.dark};
+  color: ${({ theme }) => theme && theme.text};
   background-color: ${({ theme }) => theme && theme.secondary};
   border: none;
   border-radius: 0.5rem;
@@ -88,3 +88,20 @@ button {
   }
 }
 `;
+export default {
+  GlobalStyles,
+};
+
+interface GlobalProps {
+  theme?: {
+    fonts: {
+      heading: string;
+      primary: string;
+    };
+    primary: string;
+    secondary: string;
+    bgColor: string;
+    text: string;
+    info: string;
+  };
+}
